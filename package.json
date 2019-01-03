@@ -1,0 +1,12 @@
+{
+  "name": "cainiao-crawler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "cheerio": "^1.0.0-rc.2",
+    "got": "^9.5.0",
+    "h2m": "^0.7.0"
+  }
+}
