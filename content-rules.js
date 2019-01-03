@@ -3,12 +3,8 @@ const h2m = require('h2m')
 const fs = require('fs')
 const path = require('path')
 const got = require('got')
-const util = require('util')
 const log = require('./log')
 const { dist } = require('./source')
-
-const writeFile = util.promisify(fs.write)
-const open = util.promisify(fs.open)
 
 exports.createReadable = function(str) {
   const Readable = require('stream').Readable
