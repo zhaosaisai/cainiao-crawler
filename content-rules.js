@@ -32,5 +32,6 @@ module.exports = async function(link, cmd) {
     log.success(`【${cmd}】命令解析成功 --> ${link}`)
   } catch(e) {
     log.error(`【${cmd}】命令解析失败 【${e.message}】 --> ${link}`)
+    return Promise.reject(e)
   }
 }
