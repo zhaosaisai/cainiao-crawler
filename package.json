@@ -6,7 +6,16 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "cheerio": "^1.0.0-rc.2",
+    "global": "^4.3.2",
     "got": "^9.5.0",
     "h2m": "^0.7.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
